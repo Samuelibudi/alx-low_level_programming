@@ -9,5 +9,5 @@ int main(void)
 	char strpt[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
 	write(2, strpt, 59);
-	return(1);
+	return (1);
 }
