@@ -16,7 +16,7 @@ int main(void)
 		putchar (m);
 
 	for (m = 97; m < 103; m++)
-		putchar (ch);
+		putchar (m);
 
 	putchar ('\n');
 	return (0);
