@@ -23,7 +23,6 @@ int main(void)
 			g = 48;
 			while (g < 58)
 			{
-				
 				if (n != m && n != g && m != g && n < m && m < g)
 				{
 					putchar(n);
