@@ -19,12 +19,13 @@ int main(void)
 		m = 48;
 		while (m < 58)
 		{
+			if (n == m || n > m)
+			{
+				continue;
+			}
+
 			putchar(n);
 			putchar(m);
-			if (n >= m)
-			{
-				break;
-			}
 			putchar(',');
 			putchar(' ');
 			m++;
