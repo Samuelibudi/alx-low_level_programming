@@ -27,7 +27,6 @@ int main(void)
 				{
 					break;
 				}
-			
 				putchar(',');
 				putchar(' ');
 			}
@@ -36,6 +35,6 @@ int main(void)
 		n++;
 	}
 
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
