@@ -2,8 +2,8 @@
 
 /**
  * print_times_table - print n times table.
- * 
- * @n: Parameter whose times table is to be printed.
+ *
+ * @n:Parameter whose times table is to be printed.
  *
  * Return: Always 0.
  */
