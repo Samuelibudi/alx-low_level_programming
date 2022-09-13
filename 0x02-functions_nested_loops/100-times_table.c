@@ -9,14 +9,14 @@
  */
 void print_times_table(int n)
 {
-	int m, c, pdt;
+int m, c, pdt;
 
 if (n >= 0 && n <= 15)
 {
-	for (m = 0; m < n; m++)
+	for (m = 0; m <= n; m++)
 	{
 		_putchar(48);
-		for (c = 1; c < n; c++)
+		for (c = 1; c <= n; c++)
 		{
 			pdt = c * m;
 			_putchar(44);
