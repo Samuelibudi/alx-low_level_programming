@@ -12,7 +12,7 @@ int main(void)
 	int c[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
 	int i;
 
-	for (i = 0; i <= (sizeof(c) / sizeof(int)); i++)
+	for (i = 0; i < (sizeof(c) / sizeof(int)); i++)
 	{
 		_putchar(c[i]);
 	}
