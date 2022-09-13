@@ -9,9 +9,10 @@
  */
 int main(void)
 {
-	char c[8] = "_putchar";
+	char c[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	int i;
 
-	for (int i = 0; i <= sizeof(c); i++)
+	for (i = 0; i <= (sizeof(c) / sizeof(int)); i++)
 	{
 		_putchar(c[i]);
 	}
