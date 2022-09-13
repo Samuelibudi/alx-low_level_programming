@@ -11,15 +11,16 @@ void times_table(void)
 
 	for (m = 0; m < 10; m++)
 	{
-		for (n = 0; n < 10; n++)
+		_putchar(48);
+		for (n = 1; n < 10; n++)
 		{
 			pdt = n * m;
-			
+			_putchar(44);
+			_putchar(32);
 			if (pdt < 10)
 			{
-				_putchar(pdt + 48);
-				_putchar(44);
 				_putchar(32);
+				_putchar(pdt + 48);
 			}
 			else
 			{
