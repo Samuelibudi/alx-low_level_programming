@@ -20,7 +20,7 @@ int main(void)
 		m2 = n;
 		if ((m1 % 2) == 0)
 		{
-			sume_even = sum_even + m1;
+			sum_even = sum_even + m1;
 		}
 	}
 	printf("%ld\n", sum_even);
