@@ -10,9 +10,10 @@
 int main(void)
 {
 	int c[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int i;
+	int i, sz;
 
-	for (i = 0; i < (sizeof(c) / sizeof(int)); i++)
+	sz = sizeof(c) / sizeof(int);
+	for (i = 0; i < sz; i++)
 	{
 		_putchar(c[i]);
 	}
