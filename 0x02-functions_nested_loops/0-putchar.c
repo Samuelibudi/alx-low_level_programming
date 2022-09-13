@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char c[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	int c[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
 	int i;
 
 	for (i = 0; i <= (sizeof(c) / sizeof(int)); i++)
