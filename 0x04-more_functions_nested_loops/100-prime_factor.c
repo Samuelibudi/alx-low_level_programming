@@ -9,12 +9,12 @@ int main(void)
 {
 	long int i, fac;
 
-	n = 612852475143;
-	for (fac = 2; fac <= n; fac++)
+	i = 612852475143;
+	for (fac = 2; fac <= i; fac++)
 	{
-		if (n % fac == 0)
+		if (i % fac == 0)
 		{
-			n /= fac;
+			i /= fac;
 			fac--;
 		}
 	}
