@@ -17,17 +17,11 @@ void puts_half(char *str)
 			break;
 		i++;
 	}
-	if (i % 2 == 0)
-	{
+	if (i % 2 == 1)
 		i = i / 2;
-		for (i = i + 1; i != '\0'; i++)
-			_putchar(str[i]);
-	}
-	else if (i % 2 != 0)
-	{
+	else
 		i = (i - 1) / 2;
-		for (i = i + 2; i != '\0'; i++)
-			_putchar(str[i]);
-	}
+	for (i = i + 1; i != '\0'; i++)
+		_putchar(str[i]);
 	_putchar('\n');
 }
