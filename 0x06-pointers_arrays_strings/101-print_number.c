@@ -1,0 +1,33 @@
+#include "main.h"
+
+/**
+ * print_number - function prints integer.
+ * @n: number to print.
+ * Return: nothing.
+ */
+void print_number(int n)
+{
+	unsigned int i, j, m;
+
+	if (n < 0)
+	{
+		_putchar(45);
+		i = n * -1;
+	}
+	else
+	{
+		i = n;
+	}
+	j = i;
+	m = 1;
+
+	while (j > 9)
+	{
+		j /= 10;
+		m *= 10;
+	}
+	for (; m >= 1; m /= 10)
+	{
+		_putchar(((j / m) % 10) + 48);
+	}
+}
