@@ -24,7 +24,7 @@ int compare(char *s, int i, int j)
 	{
 		if (i == j || i == j + 1)
 			return (1);
-		return (0 + compare(s, i + 1, j - 2));
+		return (0 + compare(s, i + 1, j - 1));
 	}
 	return (0);
 }
