@@ -22,7 +22,7 @@ int _strlen(char *s)
  */
 char *_strdup(char *str)
 {
-	unsigned int i = _strlen(str);
+	unsigned int i = _strlen(str) + 1;
 	int count = 0;
 	char *c;
 
