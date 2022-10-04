@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * argtostr - function concatenates all the arguments of a program.
+ * argstostr - function concatenates all the arguments of a program.
  * @ac: Number of arguments.
  * @av: Array of arguments.
  * Return: pointer to array of char.
  */
-char *argtostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	char *m;
 	int c, i, j, n;
