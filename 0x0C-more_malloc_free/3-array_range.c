@@ -20,7 +20,7 @@ int *array_range(int min, int max)
 	if (cr == NULL)
 		return (NULL);
 
-	for (i = 0; min <= max; p++, min++)
+	for (p = 0; min <= max; p++, min++)
 		cr[p] = min;
 
 	return (cr);
