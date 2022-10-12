@@ -6,11 +6,11 @@
  * @array: pointer to array.
  * @action: pointer to function.
  * @size: Size of array.
- * Retunr : nothing
+ * Return : nothing
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int i;
+	unsigned int i;
 
 	if (array && action)
 		for (i = 0; i < size; i++)
