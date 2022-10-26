@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * free_list - free linked list
+ * free_list1 - free linked list
  * @head: head of list.
  *
  * Return: nothing
  */
-void free_list(listp_t **head)
+void free_list1(listp_t **head)
 {
 	listp_t *tmp;
 	listp_t *current;
@@ -55,7 +55,7 @@ size_t free_listint_safe(listint_t **h)
 			if (*h == add->p)
 			{
 				*h = NULL;
-				free_list(&ptr);
+				free_list1(&ptr);
 				return (num);
 			}
 		}
@@ -66,6 +66,6 @@ size_t free_listint_safe(listint_t **h)
 	}
 
 	*h = NULL;
-	free_list(&ptr);
+	free_list1(&ptr);
 	return (num);
 }
