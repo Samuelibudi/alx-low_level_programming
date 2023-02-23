@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module that contains island_perimeter function"""
 
+
 def island_perimeter(grid):
     """Function that returns perimeter of island described in grid"""
 
@@ -22,6 +23,5 @@ def island_perimeter(grid):
                     perimeter += 1
                 if (b + 1) == ncol or grid[a][b + 1] == 0:
                     perimeter += 1
-
 
     return perimeter
